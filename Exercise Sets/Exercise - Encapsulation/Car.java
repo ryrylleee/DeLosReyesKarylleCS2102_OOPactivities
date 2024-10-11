@@ -51,4 +51,11 @@ public class Car {
         }
         return String.format("Car (%s) - P%.2f - %s", color, price, sizeDescriptor);
     }
+//MAIN METHOD (FOR TESTING)
+    public static void main(String[] args) {
+        Car car1 = new Car("red", 19999.85, 'm');
+        System.out.println(car1);
+        Car car2 = new Car("blue", 50000.00, 'l');
+        System.out.println(car2); 
+    }
 }
