@@ -1,8 +1,6 @@
 class Triangle implements Shape {
 
-    private final double a;
-    private final double b;
-    private final double c;
+    private double a, b, c;
 
     public Triangle(double a, double b, double c) {
         this.a = a;
