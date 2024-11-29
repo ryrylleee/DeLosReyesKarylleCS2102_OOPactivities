@@ -1,5 +1,5 @@
 class Square implements Shape {
-    private final double side;
+    private double side;
 
     public Square(double side) {
         this.side = side;
